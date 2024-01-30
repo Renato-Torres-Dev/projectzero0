@@ -39,7 +39,7 @@ export const ExperienceItem = ({ img_src, link, text_link, area, tempo, desc, te
           <a
             href={link}
             target="_blank"
-            className="text-gray-500 hover:text-emerald-500 transition-colors"
+            className="text-gray-500 hover:text-red-500 transition-colors"
           >
             {text_link}
           </a>
