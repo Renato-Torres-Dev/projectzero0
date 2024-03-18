@@ -16,7 +16,7 @@ export const NavItem = ({ label, href}: NavItemProps) => {
       "text-gray-400 flex items-center gap-2 font-medium font-mono",
       isActive && "text-gray-50"
     )}>
-      <span className="text-red-400">#</span>
+      <span className="text-fuchsia-400">#</span>
       {label}
     </Link>
   )
