@@ -9,10 +9,10 @@ export const ProjectList = () => {
       <Link href={"/projects/portfoliopixel"}>
         <ProjectPixelCard />
       </Link>
-      <Link href={"projects/mourabr"}>
+      <Link href={"/projects/mourabr"}>
         <ProjectMouraBRCard />
       </Link>
-      <Link href={"projects/mouraar"}>
+      <Link href={"/projects/mouraar"}>
         <ProjectMouraARCard />
       </Link>
     </section>
