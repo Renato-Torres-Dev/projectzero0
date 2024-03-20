@@ -22,6 +22,8 @@ export const AboutUs = () => {
         <IgorGabriel />
         <HorizontalDivider className="my-16"/>
       </div>
+
+      {/*colocar um link para acessar o menu com todos*/}
     </section>
   )
 }

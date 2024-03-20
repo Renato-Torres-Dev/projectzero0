@@ -27,22 +27,22 @@ export const IgorGabriel = () => {
           Igor Gabriel
         </h3>
         <p className="text-gray-400 my-6">
-          Profissional em desenvolvimento front-end, atuando diretamente
-          como equipe de UI/UX juntamente com a equipe de design, organizando
-          o projeto utilizando Trello, e realizando o método build and run.
+          Profissional em desenvolvimento Full Stack, responsável por todas as 
+          áreas do projeto, back-end e front-end, desenvolvidos em Delphi e mobile.
+          Tech Lead e especialista em mobile.
         </p>
         <div className="flex gap-x-2 gap-y-3 flex-wrap mb-8 lg:max-w-[350px]">
           <TechBadge name="HTML5"/>
           <TechBadge name="CSS3"/>
           <TechBadge name="JavaScript"/>
-          <TechBadge name="React"/>
-          <TechBadge name="TailwindCSS"/>
-          <TechBadge name="NextJS"/>
-          <TechBadge name="Figma"/>
-          <TechBadge name="RestAPIs"/>
+          <TechBadge name="ReactNative"/>
+          <TechBadge name="Java"/>
+          <TechBadge name="IOS"/>
+          <TechBadge name="Android"/>
+          <TechBadge name="ReactJS"/>
         </div>
 
-        <Link href="https://www.linkedin.com/in/renato-torres-dev/" target="_blank">
+        <Link href="https://www.linkedin.com/in/igor-gabriel-b194a5203/" target="_blank">
           Ver perfil
           <HiArrowNarrowRight />
         </Link>
