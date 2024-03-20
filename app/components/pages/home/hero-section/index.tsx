@@ -6,25 +6,22 @@ import { TbBrandGithub, TbBrandLinkedin, TbBrandWhatsapp } from "react-icons/tb"
 
 const Mock_Skilss = [
   {
-    name: "Next.js"
+    name: "OnePage"
   },
   {
-    name: "TailwindCSS"
+    name: "Sites"
   },
   {
-    name: "HTML5"
+    name: "E-Commerce"
   },
   {
-    name: "CSS3"
+    name: "Comerciais"
   },
   {
-    name: "JavaScript"
+    name: "Marketing Digital"
   },
   {
-    name: "React"
-  },
-  {
-    name: "Git"
+    name: "Consultoria"
   },
 ]
 
@@ -48,11 +45,16 @@ export const HeroSection = () => {
     <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px]">
       <div className="container flex items-start justify-between flex-col-reverse lg:flex-row">
         <div className="w-full lg:max-w-[530px]">
-          <p className="font-mono text-fuchsia-400">Olá, meu nome é</p>
+          <p className="font-master text-fuchsia-400">Olá, Seja Bem-Vindo à</p>
 
-          <h2 className="text-4xl font-medium mt-2">Renato Torres</h2>
+          <Image
+            height={35}
+            width={271}
+            src="/images/logo_text.png"
+            alt="Logo Unicoder 2"
+          />
 
-          <p className="text-gray-400 my-6 text-sm sm:text-base">Olá, meu nome é <span style={{fontWeight: 600, color: "white"}}>Renato Torres</span> e sou <span style={{fontWeight: 600, color: "white"}}>Front-End Developer</span> apaixonado por tecnologia. Meu objetivo é criar interfaces de usuário funcionais e de visual bonito. Começando na área, gosto de enfrentar novos desafios e abraço cada oportunidade como se fosse a única.</p>
+          <p className="text-gray-400 my-6 text-sm sm:text-base">É com grande entusiasmo que nos dirigimos a vocês hoje para apresentar nossa empresa de <span style={{fontWeight: 600, color: "white"}}>Consultoria</span> e <span style={{fontWeight: 600, color: "white"}}>Soluções Tecnológicas</span>. Estamos comprometidos em oferecer serviços de alta qualidade que impulsionem o sucesso empresarial por meio da inovação e da eficiência tecnológica.</p>
           
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
             {Mock_Skilss.map(( skill, index ) => (
@@ -83,9 +85,9 @@ export const HeroSection = () => {
         <Image
           width={340}
           height={327}
-          src="/images/profile-pic-2.png"
-          alt="Foto de Perfil do Renato Torres"
-          className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 shadow-2xl rounded-lg object-cover"
+          src="/images/logo_video.gif"
+          alt="Logomarca Unicoder"
+          className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-lg object-cover border border-fuchsia-600 shadow-button"
         />
       </div>
     </section>

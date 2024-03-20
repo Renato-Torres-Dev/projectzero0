@@ -29,7 +29,7 @@ export const ContactForm = () => {
       <div className="w-full max-w-[420px] mx-auto">
         <SectionTitle 
           subtitle="contato"
-          title="Quer trabalhar comigo? Me chama..."
+          title="Quer realizar um orçamento? Entre em contato..."
           className="items-center text-center"
         />
 
