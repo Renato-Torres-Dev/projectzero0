@@ -5,10 +5,9 @@ import { SectionTitle } from "@/app/components/section-title"
 export const Contract = () => {
   return(
     <section className="container py-16">
-      <SectionTitle subtitle="experiência" title="Por Que Contratar-nos?" className="items-center text-center"/>
-      <HorizontalDivider className="mb-16"/>
+      <SectionTitle subtitle="experiência" title="Por Que Contratar-nos?" className="items-center text-center mb-16"/>
 
-      <div className="flex gap-6 lg:gap-12 flex-col lg:flex-row">
+      <div className="flex gap-6 lg:gap-12 flex-col lg:flex-row mt-16">
         <div>
           <h1 className="flex items-center gap-3 font-medium text-2xl text-gray-50">
             Abordagem Personalizada

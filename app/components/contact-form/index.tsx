@@ -25,7 +25,7 @@ export const ContactForm = () => {
   }
 
   return (
-    <section className="py-16 px-6 md:py-32 flex items-center justify-center bg-gray-950">
+    <section className="py-4 px-6 md:py-8 flex items-center justify-center bg-gray-950">
       <div className="w-full max-w-[420px] mx-auto">
         <SectionTitle 
           subtitle="contato"
@@ -66,7 +66,7 @@ export const ContactForm = () => {
           >
           </textarea>
 
-          <Button className="w-max mx-auto mt-6 shadow-button">
+          <Button className="w-max mx-auto mt-6">
             Enviar mensagem
             <HiArrowNarrowRight size={18} />
           </Button>

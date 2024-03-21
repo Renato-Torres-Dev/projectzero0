@@ -42,7 +42,7 @@ const Mock_Contacts = [
 
 export const HeroSection = () => {
   return (
-    <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px]">
+    <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 py-32 lg:pb-[170px]">
       <div className="container flex items-start justify-between flex-col-reverse lg:flex-row">
         <div className="w-full lg:max-w-[530px]">
           <p className="font-master text-fuchsia-400">Olá, Seja Bem-Vindo à</p>
@@ -56,14 +56,14 @@ export const HeroSection = () => {
 
           <p className="text-gray-400 my-6 text-sm sm:text-base">É com grande entusiasmo que nos dirigimos a vocês hoje para apresentar nossa empresa de <span style={{fontWeight: 600, color: "white"}}>Consultoria</span> e <span style={{fontWeight: 600, color: "white"}}>Soluções Tecnológicas</span>. Estamos comprometidos em oferecer serviços de alta qualidade que impulsionem o sucesso empresarial por meio da inovação e da eficiência tecnológica.</p>
           
-          <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
+          {/* <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
             {Mock_Skilss.map(( skill, index ) => (
               <TechBadge name={skill.name} />
             ))}
-          </div>
+          </div> */}
 
           <div className="mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row">
-            <Button className="w-max shadow-button">
+            <Button className="w-max">
               Entre em contato
               <HiArrowNarrowRight size={18}/>
             </Button>

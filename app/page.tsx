@@ -1,3 +1,4 @@
+import { HorizontalDividerSection } from "./components/divider/horizontal copy";
 import { AboutUs } from "./components/pages/home/about-us";
 import { Contract } from "./components/pages/home/contract";
 import { HeroSection } from "./components/pages/home/hero-section";
@@ -10,13 +11,13 @@ export default async function Home() {
   return (
     <>
       <HeroSection />
-
+      <HorizontalDividerSection />
       <AboutUs />
-
+      <HorizontalDividerSection />
       <Produtos />
-
+      <HorizontalDividerSection />
       <Contract />
-      
+      <HorizontalDividerSection />
       {/*<KnowTechs />
       <HighLightedProjects />
       <WorkExperience />*/}
