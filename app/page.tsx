@@ -1,4 +1,5 @@
 import { AboutUs } from "./components/pages/home/about-us";
+import { Contract } from "./components/pages/home/contract";
 import { HeroSection } from "./components/pages/home/hero-section";
 import { HighLightedProjects } from "./components/pages/home/highlighted-projects";
 import { KnowTechs } from "./components/pages/home/know-techs";
@@ -9,8 +10,13 @@ export default async function Home() {
   return (
     <>
       <HeroSection />
+
       <AboutUs />
+
       <Produtos />
+
+      <Contract />
+      
       {/*<KnowTechs />
       <HighLightedProjects />
       <WorkExperience />*/}

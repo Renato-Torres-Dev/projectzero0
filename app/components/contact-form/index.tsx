@@ -32,6 +32,14 @@ export const ContactForm = () => {
           title="Quer realizar um orçamento? Entre em contato..."
           className="items-center text-center"
         />
+        <h2 className="text-gray-400 text-lg my-6">
+          Em um mundo cada vez mais digital e competitivo, a tecnologia 
+          pode ser um diferencial crucial para o sucesso empresarial. Estamos 
+          aqui para ser seu parceiro confiável na jornada rumo à inovação e 
+          eficiência. Entre em contato conosco hoje mesmo e descubra como 
+          podemos ajudar sua empresa a prosperar no ambiente empresarial em 
+          constante evolução.
+        </h2>
 
         <form
          className="mt-12 w-full flex flex-col gap-4"
