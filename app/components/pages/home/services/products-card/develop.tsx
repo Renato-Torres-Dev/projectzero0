@@ -4,8 +4,8 @@ import { HiArrowNarrowRight } from "react-icons/hi"
 
 export const DevSite = () => {
   return (
-    <div className="flex gap-6 lg:gap-12 flex-col lg:flex-row">
-      <div>
+    <div className="flex gap-6 lg:gap-12 flex-col lg:flex-row justify-between">
+      <div className="w-full">
         <h3 className="flex items-center gap-3 font-medium text-lg text-gray-50">
           <Image
             width={20}
@@ -16,10 +16,9 @@ export const DevSite = () => {
           Desenvolvimento de Site
         </h3>
         <p className="text-gray-400 my-6">
-          Oferecemos desenvolvimento de sites personalizados para maximizar
-          a presença online dos clientes. Com design responsivo e funcionalidade
-          avançada, impulsionamos o engajamento e alcançamos objetivos comerciais.
-          Garantimos suporte contínuo para o sucesso contínuo do site.
+          Desenvolvemos sites profissionais e responsivos que atendem
+          às necessidades específicas de cada cliente, garantindo uma 
+          presença online eficaz e impactante.
         </p>
 
         <Link href="/" target="_blank">

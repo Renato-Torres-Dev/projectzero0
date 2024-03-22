@@ -5,7 +5,7 @@ import { HiArrowNarrowRight } from "react-icons/hi"
 export const Comercial = () => {
   return(
     <div className="flex gap-6 lg:gap-12 flex-col lg:flex-row">
-      <div>
+      <div className="w-full">
         <h3 className="flex items-center gap-3 font-medium text-lg text-gray-50">
           <Image
             width={20}
@@ -16,10 +16,10 @@ export const Comercial = () => {
           Comerciais e Propagandas
         </h3>
         <p className="text-gray-400 my-6">
-          Oferecemos serviços de propaganda eficaz para promover a marca e os 
-          produtos dos clientes. Com estratégias criativas, desenvolvemos 
-          comerciais impactantes que impulsionam as vendas. Nosso objetivo 
-          é garantir uma presença de destaque no mercado para nossos clientes.
+          Desenvolvemos comerciais criativos e envolventes 
+          que promovem a marca e os produtos dos clientes, 
+          utilizando técnicas de storytelling e produção de 
+          alta qualidade para alcançar resultados impactantes.
         </p>
 
         <Link href="/" target="_blank">
