@@ -16,8 +16,9 @@ export const NavItem = ({ label, href}: NavItemProps) => {
       "text-gray-400 flex items-center gap-2 font-medium font-mono",
       isActive && "text-fuchsia-600"
     )}>
-      <span className="text-fuchsia-400">#</span>
+      <span className="text-fuchsia-400">{`<`}</span>
       {label}
+      <span className="text-fuchsia-400">{`/>`}</span>
     </Link>
   )
 }
