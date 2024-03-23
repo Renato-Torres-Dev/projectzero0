@@ -21,7 +21,7 @@ export const DevSite = () => {
           presença online eficaz e impactante.
         </p>
 
-        <Link href="/" target="_blank">
+        <Link href="/services/site">
           Ver detalhadamente
           <HiArrowNarrowRight />
         </Link>

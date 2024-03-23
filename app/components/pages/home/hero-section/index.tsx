@@ -1,8 +1,7 @@
 import { Button } from "@/app/components/button"
-import { TechBadge } from "@/app/components/tech-badge"
 import Image from "next/image"
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { TbBrandGithub, TbBrandLinkedin, TbBrandWhatsapp } from "react-icons/tb";
+import { TbBrandInstagram, TbBrandLinkedin, TbBrandWhatsapp } from "react-icons/tb";
 
 const Mock_Skilss = [
   {
@@ -27,12 +26,8 @@ const Mock_Skilss = [
 
 const Mock_Contacts = [
   {
-    url: "https://github.com/Renato-Torres-Dev",
-    icon: <TbBrandGithub />
-  },
-  {
-    url: "https://www.linkedin.com/in/renato-torres-dev/",
-    icon: <TbBrandLinkedin />
+    url: "https://www.instagram.com/unicoder_tech?igsh=MTFhOWpjeTB2dmJjcg==",
+    icon: <TbBrandInstagram />
   },
   {
     url: "https://api.whatsapp.com/send?phone=5581995204835",

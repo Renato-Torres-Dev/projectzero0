@@ -8,17 +8,17 @@ import { TbBrandGithub } from "react-icons/tb"
 
 export const ServiceDetails = () => {
   return (
-    <section className="w-full sm:min-h-[750px] flex flex-col items-center justify-end relative pb-10 sm:pb-24 py-24 px-6 overflow-hidden">
+    <section className="w-full sm:min-h-[600px] flex flex-col items-center justify-center relative pb-10 sm:pb-24 py-24 px-6 overflow-hidden">
       <div
         className="absolute inset-0 z-[-1]"
         style={{
-          background: `url(/images/hero-bg.png) no-repeat center/cover, url(/images/projects/pixel-web.png) no-repeat center/cover`
+          background: `url(/images/hero-bg.png) no-repeat center/cover, url(/images/products/dev-site.webp) no-repeat center/cover`
         }}
       />
 
       <SectionTitle 
         subtitle="serviço"
-        title="Portfolio PixelArt"
+        title="Desenvolvimento de Site"
         className="text-center items-center sm:[&>h3]:text-4xl"
       />
 
