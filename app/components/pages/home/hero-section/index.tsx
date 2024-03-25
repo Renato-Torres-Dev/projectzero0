@@ -1,7 +1,8 @@
 import { Button } from "@/app/components/button"
+import Head from "next/head";
 import Image from "next/image"
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { TbBrandInstagram, TbBrandLinkedin, TbBrandWhatsapp } from "react-icons/tb";
+import {  TbBrandInstagram, TbBrandLinkedin, TbBrandWhatsapp } from "react-icons/tb";
 
 const Mock_Skilss = [
   {
@@ -36,6 +37,9 @@ const Mock_Contacts = [
 ]
 
 export const HeroSection = () => {
+  <Head>
+    <title>UniCoder Soluções Tecnológicas</title>
+  </Head>
   return (
     <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 py-32 lg:pb-[170px]">
       <div className="container flex items-start justify-between flex-col-reverse lg:flex-row">
