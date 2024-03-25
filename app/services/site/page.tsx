@@ -1,6 +1,12 @@
 import { Link } from "@/app/components/links"
 import { SectionTitle } from "@/app/components/section-title"
+import { Metadata } from "next"
 import { HiArrowNarrowLeft } from "react-icons/hi"
+
+export const metadata: Metadata = {
+  title: "Unicoder - Desenvolvimento de Site",
+  icons: "/images/icons/unicoder-icon.svg",
+}
 
 export default function SitePage() {
   return (
