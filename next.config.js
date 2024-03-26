@@ -6,6 +6,9 @@ const nextConfig = {
   images: {
     domains: ['media.graphassets.com'],
   },
+  env: {
+    WEBHOOK_URL: process.env.WEBHOOK_URL,
+  }
 }
 
 module.exports = nextConfig
