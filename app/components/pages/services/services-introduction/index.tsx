@@ -4,7 +4,7 @@ import { HiArrowNarrowLeft } from "react-icons/hi"
 
 export const ServicesIntroduction = () => {
   return (
-    <section className="w-full h-[450px] lg:h-[630px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center px-2">
+    <section className="w-full sm:min-h-[600px] pb-10 sm:pb-24 py-24 px-6 bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center">
       <SectionTitle 
         subtitle="serviços"
         title="O que ofertamos..."
