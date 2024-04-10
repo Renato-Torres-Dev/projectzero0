@@ -19,7 +19,7 @@ export const AboutUs = () => {
       <div>
         <RenatoTorres />
         <HorizontalDivider className="mt-8"/>
-        <IgorGabriel />
+        {/* <IgorGabriel /> */}
       </div>
 
       {/*colocar um link para acessar o menu com todos*/}

@@ -1,8 +1,11 @@
+'use client'
+
 import { Button } from "@/app/components/button"
 import { Metadata } from "next";
 import Image from "next/image"
 import { HiArrowNarrowRight } from "react-icons/hi";
 import {  TbBrandInstagram, TbBrandLinkedin, TbBrandWhatsapp } from "react-icons/tb";
+import { motion } from 'framer-motion'
 
 const Mock_Skilss = [
   {
@@ -40,7 +43,12 @@ export const HeroSection = () => {
   return (
     <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 py-32 lg:pb-[170px]">
       <div className="container flex items-start justify-between flex-col-reverse lg:flex-row">
-        <div className="w-full lg:max-w-[530px]">
+        <motion.div
+         className="w-full lg:max-w-[530px]"
+         initial={{ opacity: 0 }}
+         whileInView={{ opacity: 1 }}
+         exit={{ opacity: 0 }}
+        >
           <p className="font-master text-fuchsia-400">Olá, Seja Bem-Vindo à</p>
 
           <Image
@@ -77,7 +85,7 @@ export const HeroSection = () => {
               ))}
             </div>
           </div>
-        </div>
+        </motion.div>
         <Image
           width={340}
           height={327}
