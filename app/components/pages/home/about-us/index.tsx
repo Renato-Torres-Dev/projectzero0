@@ -18,7 +18,7 @@ export const AboutUs = () => {
 
       <div>
         <RenatoTorres />
-        <HorizontalDivider className="mt-8"/>
+        {/* <HorizontalDivider className="mt-8"/> */}
         {/* <IgorGabriel /> */}
       </div>
 

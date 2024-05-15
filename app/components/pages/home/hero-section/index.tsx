@@ -86,13 +86,13 @@ export const HeroSection = () => {
             </div>
           </div>
         </motion.div>
-        <Image
+        {/* <Image
           width={340}
           height={327}
           src="/images/logo_video.gif"
           alt="Logomarca Unicoder"
           className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-lg object-cover border border-fuchsia-600 shadow-button"
-        />
+        /> */}
       </div>
     </section>
   )
