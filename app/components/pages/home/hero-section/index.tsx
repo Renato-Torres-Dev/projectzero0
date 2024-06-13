@@ -69,7 +69,6 @@ export const HeroSection = () => {
           <div className="mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row">
             <Button className="w-max">
               Entre em contato
-              <HiArrowNarrowRight size={18}/>
             </Button>
 
             <div className="text-2xl text-gray-600 flex items-center h-20 gap-3">
