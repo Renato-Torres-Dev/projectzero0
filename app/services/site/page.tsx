@@ -14,7 +14,7 @@ export default function SitePage() {
       <div
         className="absolute inset-0 z-[-1]"
         style={{
-          background: `url(/images/hero-bg.png) no-repeat center/cover, url(/images/products/dev-site.webp) no-repeat center/cover`
+          background: `url(/images/section-bg.png) no-repeat center/cover, url(/images/products/dev-site.webp) no-repeat center/cover`
         }}
       />
 

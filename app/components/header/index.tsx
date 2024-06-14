@@ -17,7 +17,7 @@ const NavItems = [
 
 export const Header = () => {
   return(
-    <header className="absolute top-0 w-full z-10 h-24 flex items-center justify-center bg-fuchsia-400 bg-opacity-10">
+    <header className="!fixed top-0 w-full z-10 h-24 flex items-center justify-center bg-gray-950" id="header">
       <div className="container flex items-center justify-between">
         <Link href="/">
           <Image

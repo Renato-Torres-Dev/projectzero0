@@ -6,6 +6,7 @@ import Image from "next/image"
 import { HiArrowNarrowRight } from "react-icons/hi";
 import {  TbBrandInstagram, TbBrandLinkedin, TbBrandWhatsapp } from "react-icons/tb";
 import { motion } from 'framer-motion'
+import Link from "next/link";
 
 const Mock_Skilss = [
   {
@@ -41,7 +42,7 @@ const Mock_Contacts = [
 
 export const HeroSection = () => {
   return (
-    <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 py-32 lg:pb-[170px]">
+    <section className="w-full lg:h-[755px] sm:bg-hero-image bg-gray-950 bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 py-32 lg:pb-[170px]">
       <div className="container flex items-start justify-between flex-col-reverse lg:flex-row">
         <motion.div
          className="w-full lg:max-w-[530px]"
@@ -67,9 +68,11 @@ export const HeroSection = () => {
           </div> */}
 
           <div className="mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row">
-            <Button className="w-max">
-              Entre em contato
-            </Button>
+            <Link href="#contact-form">
+              <Button className="w-max">
+                Entre em contato
+              </Button>
+            </Link>
 
             <div className="text-2xl text-gray-600 flex items-center h-20 gap-3">
               {Mock_Contacts.map((contact, index) => (
@@ -77,7 +80,7 @@ export const HeroSection = () => {
                   href={contact.url}
                   key={`contact=${index}`}
                   target="_blank"
-                  className="hover:text-gray-100 transition-colors"
+                  className="hover:text-fuchsia-600 transition-colors"
                 >
                   {contact.icon}
                 </a>
