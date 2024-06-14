@@ -22,7 +22,7 @@ export const Comercial = () => {
           alta qualidade para alcançar resultados impactantes.
         </p>
 
-        <Link href="/" target="_blank">
+        <Link href="/services/comercial">
           Ver detalhadamente
           <HiArrowNarrowRight />
         </Link>

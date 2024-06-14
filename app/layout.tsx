@@ -4,6 +4,8 @@ import { ReactNode } from 'react'
 import { Header } from './components/header'
 import { ContactForm } from './components/contact-form'
 import { Footer } from './components/footer'
+import { Toaster } from './components/toaster'
+import { TopButton } from './components/button/topButton'
 
 const NavItems = [
   {
@@ -29,10 +31,12 @@ const plexMono = IBM_Plex_Mono({
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${plexMono.variable}`}>
-      <body>
+    <html lang="pt-BR" className={`${inter.variable} ${plexMono.variable} !scroll-smooth`}>
+      <body className='bg-gray-950'>
+        <Toaster />
         <Header />
         {children}
+        <TopButton />
         <ContactForm />
         <Footer />
       </body>

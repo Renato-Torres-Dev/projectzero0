@@ -1,8 +1,12 @@
+'use client'
+
 import { Button } from "@/app/components/button"
-import { TechBadge } from "@/app/components/tech-badge"
+import { Metadata } from "next";
 import Image from "next/image"
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { TbBrandGithub, TbBrandLinkedin, TbBrandWhatsapp } from "react-icons/tb";
+import {  TbBrandInstagram, TbBrandLinkedin, TbBrandWhatsapp } from "react-icons/tb";
+import { motion } from 'framer-motion'
+import Link from "next/link";
 
 const Mock_Skilss = [
   {
@@ -27,12 +31,8 @@ const Mock_Skilss = [
 
 const Mock_Contacts = [
   {
-    url: "https://github.com/Renato-Torres-Dev",
-    icon: <TbBrandGithub />
-  },
-  {
-    url: "https://www.linkedin.com/in/renato-torres-dev/",
-    icon: <TbBrandLinkedin />
+    url: "https://www.instagram.com/unicoder_tech?igsh=MTFhOWpjeTB2dmJjcg==",
+    icon: <TbBrandInstagram />
   },
   {
     url: "https://api.whatsapp.com/send?phone=5581995204835",
@@ -42,9 +42,14 @@ const Mock_Contacts = [
 
 export const HeroSection = () => {
   return (
-    <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 py-32 lg:pb-[170px]">
+    <section className="w-full lg:h-[755px] sm:bg-hero-image bg-gray-950 bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 py-32 lg:pb-[170px]">
       <div className="container flex items-start justify-between flex-col-reverse lg:flex-row">
-        <div className="w-full lg:max-w-[530px]">
+        <motion.div
+         className="w-full lg:max-w-[530px]"
+         initial={{ opacity: 0 }}
+         whileInView={{ opacity: 1 }}
+         exit={{ opacity: 0 }}
+        >
           <p className="font-master text-fuchsia-400">Olá, Seja Bem-Vindo à</p>
 
           <Image
@@ -63,10 +68,11 @@ export const HeroSection = () => {
           </div> */}
 
           <div className="mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row">
-            <Button className="w-max">
-              Entre em contato
-              <HiArrowNarrowRight size={18}/>
-            </Button>
+            <Link href="#contact-form">
+              <Button className="w-max">
+                Entre em contato
+              </Button>
+            </Link>
 
             <div className="text-2xl text-gray-600 flex items-center h-20 gap-3">
               {Mock_Contacts.map((contact, index) => (
@@ -74,21 +80,21 @@ export const HeroSection = () => {
                   href={contact.url}
                   key={`contact=${index}`}
                   target="_blank"
-                  className="hover:text-gray-100 transition-colors"
+                  className="hover:text-fuchsia-600 transition-colors"
                 >
                   {contact.icon}
                 </a>
               ))}
             </div>
           </div>
-        </div>
-        <Image
+        </motion.div>
+        {/* <Image
           width={340}
           height={327}
           src="/images/logo_video.gif"
           alt="Logomarca Unicoder"
           className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 rounded-lg object-cover border border-fuchsia-600 shadow-button"
-        />
+        /> */}
       </div>
     </section>
   )

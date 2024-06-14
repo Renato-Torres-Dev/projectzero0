@@ -21,7 +21,7 @@ export const ECommerce = () => {
           e proporcionam uma experiência de compra excepcional.
         </p>
 
-        <Link href="/" target="_blank">
+        <Link href="/services/ecommerce">
           Ver detalhadamente
           <HiArrowNarrowRight />
         </Link>
