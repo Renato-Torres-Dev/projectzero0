@@ -80,7 +80,7 @@ export const HeroSection = () => {
                   href={contact.url}
                   key={`contact=${index}`}
                   target="_blank"
-                  className="hover:text-fuchsia-600 transition-colors"
+                  className="hover:text-fuchsia-700 transition-colors"
                 >
                   {contact.icon}
                 </a>
