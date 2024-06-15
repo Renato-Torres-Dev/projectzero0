@@ -21,7 +21,7 @@ export const DevSite = () => {
           presença online eficaz e impactante.
         </p>
 
-        <Link href="/services/site">
+        <Link href="/services/site" className="scroll-auto">
           Ver detalhadamente
           <HiArrowNarrowRight />
         </Link>

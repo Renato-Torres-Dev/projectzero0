@@ -32,7 +32,7 @@ export const ServicesIntroduction = () => {
           alcançar novos patamares de sucesso e prosperidade.
           CONFIRA ABAIXO OS NOSSOS SERVIÇOS!
         </p>
-        <Link href={"/"}>
+        <Link href={"/"} className="scroll-auto">
           <HiArrowNarrowLeft size={20}/>
           Voltar para a Home
         </Link>
