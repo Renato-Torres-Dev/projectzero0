@@ -10,7 +10,7 @@ import { WorkExperience } from "./components/pages/home/work-experience";
 
 export const metadata: Metadata = {
   title: "Unicoder Soluções Tecnológicas",
-  icons: "/images/icons/unicoder-icon.svg",
+  icons: "/images/icons/unicoder_logo.svg",
 }
 
 export default async function Home() {
@@ -24,9 +24,6 @@ export default async function Home() {
       <HorizontalDividerSection />
       <Contract />
       <HorizontalDividerSection />
-      {/*<KnowTechs />
-      <HighLightedProjects />
-      <WorkExperience />*/}
     </>
   )
 }

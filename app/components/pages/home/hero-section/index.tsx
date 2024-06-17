@@ -68,7 +68,7 @@ export const HeroSection = () => {
           </div> */}
 
           <div className="mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row">
-            <Link href="#contact-form">
+            <Link href="/contact">
               <Button className="w-max">
                 Entre em contato
               </Button>

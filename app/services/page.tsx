@@ -5,7 +5,7 @@ import { HorizontalDividerSection } from "../components/divider/horizontal copy"
 
 export const metadata: Metadata = {
   title: "Unicoder - Serviços",
-  icons: "/images/icons/unicoder-icon.svg",
+  icons: "/images/icons/unicoder_logo.svg",
 }
 
 export default function Services () {

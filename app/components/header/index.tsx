@@ -12,6 +12,10 @@ const NavItems = [
   {
     label: "Serviços",
     href: "/services"
+  },
+  {
+    label: "Contato",
+    href: "/contact"
   }
 ]
 
